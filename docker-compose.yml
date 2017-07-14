@@ -11,7 +11,7 @@ services:
     container_name: parity_ropsten
     tty: true
     healthcheck:
-      test: ["CMD", "curl", "-f", "-X", "POST", "-H", "content-type:application/json",  "--data", "'{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"}'", "localhost:8545"]
+      test: ["CMD", "curl", "-f", "-X", "POST", "-H", "content-type: application/json",  "--data", "{\"method\":\"eth_blockNumber\",\"params\":[],\"id\":1,\"jsonrpc\":\"2.0\"}", "localhost:8545"]
       interval: 20s
       timeout: 10s
       retries: 12
