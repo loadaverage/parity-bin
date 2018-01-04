@@ -1,3 +1,6 @@
+![Docker build status](https://img.shields.io/docker/build/loadaverage/parity-bin.svg)
+![Docker automated](https://img.shields.io/docker/automated/loadaverage/parity-bin.svg)
+
 ### Pre-compiled binaries with Parity - fast, light, and robust Ethereum implementation.
 
 --- 
